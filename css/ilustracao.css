@@ -1,0 +1,42 @@
+
+div#ar {
+	background:url(/img/ar-ilustracao.png);
+	background-repeat:no-repeat;
+	width:230px;
+	height:141px;
+	float:left;
+	}
+	
+div#ilustracao {
+	background:url(/img/bts-new_0000s_0002_Shape-9-copy-3.png);
+	background-repeat:no-repeat;
+	width:141px;
+	height:141px;
+	float:left;
+	}
+	
+
+div#ilustracao:hover {
+	background:url(/img/bts-new_0000s_0002_Shape-9-copy-4.png);
+	background-repeat:no-repeat;
+	}
+	
+
+div#ilustracao ul{
+	width:141px;
+	margin-top:141px;
+	float:right;
+	display:none
+	}
+		
+div#ilustracao ul li{
+	background:#004d88;
+	}
+	
+div#ilustracao ul li:hover{
+	background:#0062ad;
+	}
+
+div#ilustracao:hover > ul {
+	display:block
+}

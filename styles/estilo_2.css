@@ -1,0 +1,222 @@
+@import url('bottom.css');
+* {
+	margin:0;
+	pading:0;
+	border:0
+}
+
+div#pop {
+	background:url(image/image-flot.png);
+	background-repeat:no-repeat;
+	width:59px ;
+	height:141px;
+	float:right
+	}
+	
+div#pop:hover {
+	background:url(image/image-flot_2.png)
+	}
+	
+div#facebook {
+	width:58px ;
+	height:47px;
+	float:left
+	}
+	
+div#flickr{
+	width:58px ;
+	height:47px;
+	float:left
+	}
+	
+div#email{
+	width:58px ;
+	height:47px;
+	float:left
+	}
+	
+body {
+	background:url(image/novo%20layout.png);
+	background-repeat:repeat-x;
+	background-color:#fafafa;
+	}
+div#site {
+	width:1000px ;
+	height:141px;
+	margin:auto
+	}
+	
+div#ar {
+	background:url(image/ar-design.png);
+	background-repeat:no-repeat;
+	width:230px;
+	height:141px;
+	float:left;
+	}
+
+a {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:12pt;
+	color:#FFF;
+	text-justify:auto;
+	text-decoration:none;
+	}
+
+ul {
+	list-style:none
+	}
+	
+li {
+	padding:6px 20px;
+	}
+	
+div#design {
+	background:url(image/bts-new_0000s_0009_Design-copy-2.png);
+	background-repeat:no-repeat;
+	width:141px;
+	height:141px;
+	float:left;
+	}
+	
+
+div#design:hover {
+	background:url(image/bts-new_0000s_0009_Design-copy-3.png);
+	background-repeat:no-repeat;
+	}
+	
+
+div#design ul{
+	width:141px;
+	margin-top:141px;
+	float:right;
+	display:none
+	}
+		
+div#design ul li{
+	background:#038800
+	}
+	
+div#design ul li:hover{
+	background:#04a500;
+	}
+
+div#design:hover > ul {
+	display:block
+}
+	
+div#ilustracao {
+	background:url(image/bts-new_0000s_0001_Shape-9-copy-2.png);
+	background-repeat:no-repeat;
+	width:141px;
+	height:141px;
+	float:left;
+	}
+	
+
+div#ilustracao:hover {
+	background:url(image/bts-new_0000s_0000_Shape-9-copy.png);
+	background-repeat:no-repeat;
+	}
+	
+
+div#ilustracao ul{
+	width:141px;
+	margin-top:141px;
+	float:right;
+	display:none
+	}
+		
+div#ilustracao ul li{
+	background:#004d88;
+	}
+	
+div#ilustracao ul li:hover{
+	background:#0062ad;
+	}
+
+div#ilustracao:hover > ul {
+	display:block
+}
+
+div#eu {
+	background:url(image/bts-new_0000s_0008_Eu-copy-2.png);
+	background-repeat:no-repeat;
+	width:141px;
+	height:142px;
+	float:left;
+	}
+	
+
+div#eu:hover {
+	background:url(image/bts-new_0000s_0007_Eu.png);
+	background-repeat:no-repeat;
+	}
+	
+
+div#eu ul{
+	width:141px;
+	margin-top:141px;
+	float:right;
+	display:none
+	}
+		
+div#eu ul li{
+	background:#4c4c4c
+	}
+	
+div#eu ul li:hover{
+	background:#767676;
+	}
+
+div#eu:hover > ul {
+	display:block
+	}
+
+div#tresd {
+	background:url(image/bts-new_0000s_0005_3D-copy-2.png);
+	background-repeat:no-repeat;
+	width:141px;
+	height:141px;
+	float:left;
+	}
+	
+
+div#tresd:hover {
+	background:url(image/bts-new_0000s_0004_3D.png);
+	background-repeat:no-repeat;
+	}
+	
+
+div#tresd ul{
+	width:141px;
+	margin-top:141px;
+	float:right;
+	display:none
+	}
+		
+div#tresd ul li{
+	background:#a50000
+	}
+	
+div#tresd ul li:hover{
+	background:#d30000;
+	}
+
+div#tresd:hover > ul {
+	display:block
+	}
+
+div#banner {
+	height:159px;
+	width:700px;
+	background:url(image/BANNER-2.jpg);
+	background-repeat:no-repeat;
+	margin:auto
+	}
+
+div#conteudo {
+	margin:auto;
+	width:667px;
+	height:600
+	}
+	
