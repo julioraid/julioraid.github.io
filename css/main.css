@@ -27,12 +27,10 @@
 }
 
 #status {
-    display:block;
     
     position: absolute;  
     top: 50%;
-    left: 50%;
-    
+    left: 50%;    
     width: 510px;
     margin-left: -255px;
     height: 156px;
@@ -59,8 +57,7 @@ body {
 #home {    
     position: absolute;  
     top: 50%;
-    left: 50%;
-    
+    left: 50%;    
     width: 510px;
     margin-left: -255px;
     height: 156px;
