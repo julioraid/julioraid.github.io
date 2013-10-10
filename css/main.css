@@ -80,26 +80,30 @@ body {
 #home div ul li a {
     float: left;
     display: block;
-    padding: 30px 45px;
-    width: 80px;
-    height: 100px;
+    margin: 25px 40px;
+    width: 90px;
+    height: 112px;
 }
 
+.mnu-icons { background-image: url(../img/mnu-sprite.png); background-color: transparent; background-repeat: no-repeat; }
+
 #home div ul li a.mnu-des {
-    background: url(../img/d.png?b) center center no-repeat;
-}
-#home div ul li a.mnu-ilu {
-    background: url(../img/i.png?b) center center no-repeat;
-}
-#home div ul li a.mnu-con {
-    background: url(../img/c.png?b) center center no-repeat;
+    background-position: 0 -112px;
 }
 #home div ul li a.mnu-des:hover {
-    background: url(../img/d-hover.png?b) center center no-repeat;
+    background-position: 0 0;
 }
-#home div ul li a.mnu-ilu:hover {
-    background: url(../img/i-hover.png?b) center center no-repeat;
+
+#home div ul li a.mnu-con {
+    background-position: -184px -112px;
 }
 #home div ul li a.mnu-con:hover {
-    background: url(../img/c-hover.png?b) center center no-repeat;
+    background-position: -184px 0;
+}
+
+#home div ul li a.mnu-ilu {
+    background-position: -92px -112px;
+}
+#home div ul li a.mnu-ilu:hover {
+    background-position: -92px 0;
 }
