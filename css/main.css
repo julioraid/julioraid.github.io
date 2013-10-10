@@ -64,6 +64,42 @@ body {
     margin-top: -78px;
 }
 
-#home div img {
-    padding: 25px 44px;
+#home div ul {
+    width: 510px;
+    padding: 0;
+    margin: 0;
+    display: inline;
+    list-style: none;
+    float: left
+}
+
+#home div ul li {
+    display: inline;
+}
+
+#home div ul li a {
+    float: left;
+    display: block;
+    padding: 25px 45px;
+    width: 80px;
+    height: 100px;
+}
+
+#home div ul li a.mnu-des {
+    background: url(../img/d.png?b) center center no-repeat;
+}
+#home div ul li a.mnu-ilu {
+    background: url(../img/i.png?b) center center no-repeat;
+}
+#home div ul li a.mnu-con {
+    background: url(../img/c.png?b) center center no-repeat;
+}
+#home div ul li a.mnu-des:hover {
+    background: url(../img/d-hover.png?b) center center no-repeat;
+}
+#home div ul li a.mnu-ilu:hover {
+    background: url(../img/i-hover.png?b) center center no-repeat;
+}
+#home div ul li a.mnu-con:hover {
+    background: url(../img/c-hover.png?b) center center no-repeat;
 }
