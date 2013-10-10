@@ -1,0 +1,72 @@
+/* make keyframes that tell the start state and the end state of our object */
+@keyframes pulsate {
+     0% {opacity: 0;}
+    50% {opacity: 1.0}
+    100% {opacity: 0}
+}
+@-moz-keyframes pulsate {
+     0% {opacity: 0;}
+    50% {opacity: 1.0}
+    100% {opacity: 0}
+}
+@-webkit-keyframes pulsate {
+     0% {opacity: 0;}
+    50% {opacity: 1.0}
+    100% {opacity: 0}
+}
+
+/* PRELOADER */
+#preloader {
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background:#dbe9ed;
+    z-index:15000;
+}
+
+#status {
+    display:block;
+    
+    position: absolute;  
+    top: 50%;
+    left: 50%;
+    
+    width: 510px;
+    margin-left: -255px;
+    height: 156px;
+    margin-top: -78px;
+    
+    background:url(../img/jr.png) center center no-repeat;
+}
+
+#status {
+    opacity: 1;
+	animation: pulsate 2s ease-out;
+    animation-iteration-count: infinite;
+	-moz-animation: pulsate 2s ease-out;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation: pulsate 2s ease-out;
+    -webkit-animation-iteration-count: infinite;
+}
+
+/* PAGE */
+body {
+    background: #dbe9ed;
+}
+
+#home {    
+    position: absolute;  
+    top: 50%;
+    left: 50%;
+    
+    width: 510px;
+    margin-left: -255px;
+    height: 156px;
+    margin-top: -78px;
+}
+
+#home div img {
+    padding: 25px 44px;
+}
